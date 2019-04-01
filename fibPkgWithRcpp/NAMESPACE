@@ -1,0 +1,3 @@
+useDynLib(fibPkgWithRcpp, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)

@@ -1,0 +1,2 @@
+useDynLib(fibPkgWithoutRcpp, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
